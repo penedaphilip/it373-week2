@@ -1,27 +1,31 @@
 # Python
-__pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-*.pyc
+__pycache__/
+*.so
 
 # Virtual environment
 .venv/
 env/
 venv/
 
-# Database
-db.sqlite3
-
 # Django stuff
 *.log
 *.pot
 *.pyc
-local_settings.py
+*.sqlite3
+db.sqlite3
 
-# VSCode settings
+# Django migrations (optional, if you don’t want them in git)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# VS Code settings
 .vscode/
 
-# System files
+# Environment variables
+.env
+
+# Other
 *.DS_Store
-Thumbs.db
